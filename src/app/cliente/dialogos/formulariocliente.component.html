@@ -1,12 +1,16 @@
 <h1 mat-dialog-title>{{cliente!=null ? 'Editar Cliente' : 'Nuevo Cliente'}}</h1>
 <div mat-dialog-content>
     
-        <mat-label>Nit :   </mat-label>
-        <input mat-input [(ngModel)]="nit" type="number"><br>
-        <mat-label>Nombre :   </mat-label>
-        <input mat-input [(ngModel)]="nombre"><br>
-        <mat-label>Apellido :   </mat-label>
-        <input mat-input [(ngModel)]="apellido">
+        <mat-label>Nit :</mat-label>
+        <input matInput [(ngModel)]="nit" type="number"  ><br>
+        <mat-label>Nombre :</mat-label>
+        <input matInput [(ngModel)]="nombre" type="text"><br>
+        <mat-label>Apellido :</mat-label>
+        <input matInput [(ngModel)]="apellido" type="text">
+
+        
+ 
+        
     
     
 </div>

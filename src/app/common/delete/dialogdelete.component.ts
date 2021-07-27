@@ -6,7 +6,8 @@ import { MatDialogRef } from "@angular/material/dialog";
 })
 
 export class DialogDelteComponent{
-    constructor(public dialogRef: MatDialogRef<DialogDelteComponent>){
-        
+    constructor(
+        public dialogRef: MatDialogRef<DialogDelteComponent>){
+            
     }
 }
