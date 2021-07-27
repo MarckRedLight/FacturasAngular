@@ -1,13 +1,12 @@
-<mat-drawer-container>
-  <mat-drawer #drawer mode="side">
-    <a [routerLink]="['/inicio']">Inicio</a><br>
+<mat-toolbar > 
+  <span > Sigel Facturación </span> 
+  <a [routerLink]="['/inicio']">Inicio</a><br>
     <a [routerLink]="['/cliente']">Clientes</a><br>
     <a>Facturas</a><br>
     <a>Productos</a>
-  </mat-drawer>
+</mat-toolbar >
+
 
   <div>
-    <button (click)="drawer.toggle();">+</button>
     <router-outlet></router-outlet>
   </div>
-</mat-drawer-container>

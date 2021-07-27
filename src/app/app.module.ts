@@ -15,6 +15,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { FormularioClienteComponent } from './cliente/dialogos/formulariocliente.components';
 import { FormsModule } from '@angular/forms';
 import { DialogDelteComponent } from './common/delete/dialogdelete.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import { DialogDelteComponent } from './common/delete/dialogdelete.component';
     MatButtonModule,
     MatSnackBarModule,
     FormsModule,
+    MatToolbarModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
